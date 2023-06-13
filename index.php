@@ -17,9 +17,10 @@
 <body>
   <div class="header">
     <?php
-    $active="home";
+    $active="index";
     include('head.php');?>
     </div>
+    <img src="image/blood-cells.jpg" height="400" width="100%">
     <?php include('footer.php');?>
     
 </body>

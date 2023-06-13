@@ -7,7 +7,7 @@
         top : 0;
         width: 100%;
         padding: 10px 5px;
-        color: #299675d8;
+        color: #ff0404d8;
       }
 
       .header a{
@@ -55,7 +55,7 @@
   </head>
   <body>
     <div class="header">
-    <a href="home.php" class="logo"<?php if($active=='home') echo "class='logo2'"; ?>>Red Cell </a>
+    <a href="index.php" class="logo"<?php if($active=='index') echo "class='logo2'"; ?>>Red Cell </a>
     <div class="header-right"> 
     <a href="need_blood.php" <?php if($active=='need') echo "class='act'"; ?>>Need Blood</a>
     <a href="donate_blood.php"  <?php if($active=='donate') echo "class='act'"; ?>>Become A Donor</a>
